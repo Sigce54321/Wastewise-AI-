@@ -1,0 +1,82 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.orig
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+*.pkl
+*.joblib
+*.onnx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / generated files
+uploads/
+backend/uploads/
+frontend/uploads/
+generated_reports/
+
+# Certificates / private keys
+*.pem
+*.key
+*.crt
+
+# Coverage
+.coverage.*
+coverage.xml
+
+# Replit / local deployment state
+.replit.local
